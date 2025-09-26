@@ -1,3 +1,32 @@
----
-layout: style
----
+<style>
+    body {
+        font-family: 'Arial', sans-serif; /* Change font family */
+        background-color: #f7f7f7; /* Light grey background */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        text-align: center;
+        background-color: #fff; /* White background for content */
+        padding: 50px;
+        border-radius: 15px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #333; /* Dark text for headings */
+    }
+    p {
+        color: #666; /* Lighter text for paragraphs */
+    }
+    a {
+        color: #007bff; /* Link color */
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline; /* Underline on hover */
+    }
+</style>
